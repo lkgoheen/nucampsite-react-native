@@ -49,8 +49,7 @@ const RenderCampsite = (props) => {
         return (
             <Animatable.View
                     animation='fadeInDownBig'
-                    duration={2000}
-                    delay={1000}
+                    duration={500}
                     ref={view}
                     {...panResponder.panHandlers}
             >
