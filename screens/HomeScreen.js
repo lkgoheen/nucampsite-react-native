@@ -6,6 +6,7 @@ import { baseUrl } from '../shared/baseUrl';
 import Loading from '../components/LoadingComponent';
 import { useEffect, useRef } from 'react';
 
+
 const FeaturedItem = (props) => {
     const { item } = props;
 
