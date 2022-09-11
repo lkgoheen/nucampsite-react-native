@@ -88,8 +88,7 @@ const ReservationScreen = () => {
         <ScrollView>
             <Animatable.View
                 animation='zoomIn'
-                duration={2000}
-                delay={1000}
+                duration={500}
             >
                 <View style={StyleSheet.formRow}>
                     <Text style={StyleSheet.formLabel}>Number of Campers:</Text>

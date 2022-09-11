@@ -64,8 +64,7 @@ const AboutScreen = () => {
     <ScrollView>
         <Animatable.View
                     animation='fadeInDown'
-                    duration={2000}
-                    delay={1000}
+                    duration={500}
         >
             <Mission />
             <Card>
